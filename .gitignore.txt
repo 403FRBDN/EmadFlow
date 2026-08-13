@@ -1,0 +1,51 @@
+# Environment / credential files
+.env
+.env.*
+*.env
+*.secret
+*.secrets
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Oracle credential files
+tnsnames.ora
+sqlnet.ora
+ewallet.p12
+cwallet.sso
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/
+
+# Local temporary folders
+temp/
+tmp/
+
+# Private configuration folders
+credentials/
+secrets/
+private/
